@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { ItemComponent } from './item/item.component';
 import { ListManagerComponent } from './list-manager/list-manager.component';
+import { AuthService } from './auth.service';
+import { AuthComponent } from './auth/auth.component'
 
 
 @NgModule({
@@ -13,12 +15,13 @@ import { ListManagerComponent } from './list-manager/list-manager.component';
     AppComponent,
     InputComponent,
     ItemComponent,
-    ListManagerComponent
+    ListManagerComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [TodoListService, TodoListStorageService],
+  providers: [TodoListService, TodoListStorageService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -17,13 +17,7 @@
     padding-left: 11px;
   }
   
-  .btn-red {
-    background: rgb(231, 125, 125);
-  }
-  
-  .btn-red:hover {
-    background: rgb(221, 8, 8);
-  }
+
 
   .todo-complete {
     text-decoration: line-through;

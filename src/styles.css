@@ -39,6 +39,14 @@ ol, ul {
   background: lightslategrey;
 }
 
+.btn-red {
+  background: rgb(231, 125, 125);
+}
+
+.btn-red:hover {
+  background: rgb(221, 8, 8);
+}
+
 .todo-app {
   position: relative;
   width: 400px;

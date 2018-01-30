@@ -6,7 +6,7 @@ import { TodoListService } from '../todo-list.service';
   template: 
   `<div style="text-align:center" class="todo-app">
     <h1>
-      Welcome to {{ title }}!
+     {{ title }}!
     </h1>
     <todo-input class="todo-add" (submit)="addItem($event)"></todo-input>
     <ul>
@@ -18,7 +18,7 @@ import { TodoListService } from '../todo-list.service';
   styleUrls: ['./list-manager.component.css']
 })
 export class ListManagerComponent {
-  title = 'todo works';
+  title = 'My first Angular App';
   todoList: any;
   constructor(private todoListService:TodoListService) {
   }
